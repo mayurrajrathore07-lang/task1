@@ -13,3 +13,23 @@
     margin-left: 10px;
     color: black;
 }
+
+.kitchen{
+    display: flex;
+}
+
+.art{
+    display: flex;
+}
+
+.design{
+    display: flex;
+}
+
+.img4{
+    display: flex;
+}
+
+.img5{
+    display: flex;
+}
