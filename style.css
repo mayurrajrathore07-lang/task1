@@ -272,6 +272,8 @@ body{
 		justify-items: center;
 		width: 100%;
         height: 500px;
+	background-color:#FFD8B1;
+    align-items: center;
 }
 
 .team>h5{
@@ -282,12 +284,20 @@ body{
 		align-items: center;
 		text-align: center;
 
+	}
+.team-name{
+	display: flex;
+	gap: 100px;
+
 }
 
 .team-name>img{
 		width: 164px;
 		height: 164px;
+		padding-top: 10px;
 		object-fit: cover;
+		border-radius: 50%;
+			
 }
 
 .client {
@@ -296,7 +306,7 @@ body{
     padding: 70px 0;
 }
 
-.client h2 {
+.client h6 {
     text-align: center;
     font-size: 60px;
     font-weight: 300;
@@ -320,19 +330,16 @@ body{
 }
 
 .frank-sims h4 {
-    font-size: 38px;
+    font-size: 45px;
     font-weight: 700;
     margin-bottom: 10px;
+	text-decoration: underline;
 }
 
-.frank-sims hr {
-    width: 90px;
-    margin: 0 auto 12px;
-}
 
 .frank-sims p {
-    font-size: 16px;
-    color: #333;
+    font-size: 20px;
+    color: #0e0d0d;
 }
 
 .contentp {
