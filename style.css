@@ -244,12 +244,12 @@ body{
 		width: 364px;
 		height: 364px;
 		border-radius: 5px;
-		object-fit: cover;
 }
 
 
 .img4 img:nth-of-type(2){
 		height: 590px;
+		object-fit: contain;
 
 }
 
@@ -260,19 +260,18 @@ body{
 		margin: 0 auto;
 		justify-content: center;
 		border-radius: 15px;
-		object-fit: cover;
+		
 }
 .img5 img{
 		width: 364px;
 		height: 590px; 
 border-radius: 5px;
-object-fit: cover;
+object-fit: contain;
 }
 
 
 .img5 img:nth-of-type(2){
 		height: 364px;
-		object-fit: cover;
 
 }
 
