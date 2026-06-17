@@ -29,14 +29,14 @@ body{
 	display: flex;
 	list-style: none;
 	gap: 30px;
-	color: rgb(214, 150, 32);
+	color: rgb(12, 11, 10);
 	margin-right: -10px;
 }
 
 .nav-links a{
 	text-decoration: none;
 	font-size:  25px;;
-	color: rgb(217, 233, 75);
+	color: rgb(12, 12, 11);
 }
 
 .nav-centre{
@@ -46,31 +46,31 @@ body{
 	margin-top: 50px;
 	height: 500px;
 	font-family:sans-serif;
-	background-color:#FFE6C7;
+	background-color:#FFD8B1;
 	align-content: center;
-
+    font-size: 30px;
 }
+
 
 .get{
 	background-color: black;
-	border-radius: 50px;
-	width: 130px;
-	height: 40px;
-	color: rgb(221, 121, 6);
+	border-radius: 60px;
+	width: 140px;
+	height: 50px;
+	color: rgb(236, 231, 226);
 }
 
 .content>h2{
 	text-align: center;
 	justify-content: center;
 	align-items: center;
-	font-size: 80px;
-	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	margin-bottom: 60px;
-	padding-top: 40px;
+	font-size: 70px;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin-bottom: 80px;
+	margin-top: 60px;
+    font-weight: 100;
+
 }
-
-
-
 
 
 
@@ -79,7 +79,7 @@ body{
 		align-items: center;
 		justify-content: center;
 		gap: 70px;
-		width: min(1200px, calc(100% - 160px));
+		width:100%;
 		margin: 0 auto 40px;
 }
 
@@ -210,16 +210,24 @@ body{
 	margin-bottom: 24px;
 }
 
+
+
+
+
+
 .works{
  margin-top: 120px;
 }
 .works>h4{
-		font-family: sans-serif;
-		font-size: 100px;
-		align-items: center;
-		justify-content: center;
 		text-align: center;
-		margin-bottom: 120px;
+	justify-content: center;
+	align-items: center;
+	font-size: 70px;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin-bottom: 80px;
+	margin-top: 60px;
+    font-weight: 100;
+
 }
 
 
@@ -235,6 +243,8 @@ body{
 		width: 364px;
 		height: 364px;
 }
+
+
 .img4 img:nth-of-type(2){
 		height: 590px;
 
@@ -249,8 +259,11 @@ body{
 }
 .img5 img{
 		width: 364px;
-		height: 590px;
+		height: 590px; 
+
 }
+
+
 .img5 img:nth-of-type(2){
 		height: 364px;
 }
@@ -277,29 +290,75 @@ body{
 		object-fit: cover;
 }
 
-.client{
-		width: 100%;
-        height: 600px;
-
-}
-.client>h6{
-		margin-top: 50px;
-		margin-bottom: 50px;
-		font-size: 50px;
-		font-weight: 100;
-		align-items: center;
-		text-align: center;   
+.client {
+    background-color: #f3f3f3;
+    width: 100%;
+    padding: 70px 0;
 }
 
-.content4{
-		display: flex;
-		gap: 80px;
-		justify-content: center;
-		text-align: left;
-		width: min(1100px, calc(100% - 160px));
-		margin: 60px auto;
+.client h2 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+    color: #444;
+    margin-bottom: 80px;
+    font-family: sans-serif;
 }
 
+
+.content4 {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.frank-sims {
+    text-align: center;
+}
+
+.frank-sims h4 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.frank-sims hr {
+    width: 90px;
+    margin: 0 auto 12px;
+}
+
+.frank-sims p {
+    font-size: 16px;
+    color: #333;
+}
+
+.contentp {
+    width: 450px;
+}
+
+.contentp p {
+    font-size: 18px;
+    color: #777;
+    line-height: 1.7;
+}
+
+.img6 {
+    width: 75%;
+    margin: 90px auto 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.img6 img {
+    width: 266px;
+    height: 140px;
+    object-fit: cover;
+    background-color: #ddd;
+}
 
  .footer-nav{
 		width: 100%;
