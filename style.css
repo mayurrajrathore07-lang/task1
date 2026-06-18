@@ -19,16 +19,8 @@ body{
 	align-items: center;
 	justify-content:space-between;
 	display: flex;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  background-color: whitesmoke;
-  padding-top: 15px;
-  padding-bottom: 20px;
+
 }
-
-
 
 .clemo{
 	font-size: 40px;
@@ -45,7 +37,6 @@ body{
 	gap: 30px;
 	color: rgb(12, 11, 10);
 	margin-right: 0;
-	padding-right: 180px;
 }
 
 .nav-links a{
