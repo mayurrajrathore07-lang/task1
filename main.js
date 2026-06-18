@@ -11,7 +11,7 @@ if (getInTouchButton && contactSection) {
 
 learnMoreButtons.forEach((button) => {
 	button.addEventListener('click', () => {
-		alert('This is a beginner-friendly JS demo button.');
+		alert('currently not available.');
 	});
 });
 
@@ -21,4 +21,9 @@ if (form) {
 		alert('Thanks for your message! We will contact you soon.');
 		form.reset();
 	});
+}
+if(getInTouchButton){
+    getInTouchButton.addEventListener('click',()=>{
+        contactSection.scrollIntoView({brhaviour:'smooth'})
+    })
 }
