@@ -16,11 +16,11 @@ body{
 }
 
 .nav-top{
+
 	align-items: center;
 	justify-content:space-between;
 	display: flex;
   
-
 }
 
 .clemo{
@@ -38,6 +38,7 @@ body{
 	gap: 30px;
 	color: rgb(12, 11, 10);
 	margin-right: 0;
+
 }
 
 .nav-links a{
@@ -587,3 +588,53 @@ font-size: medium;
 font-weight: bold;
 padding-top: 40px;
 }
+
+
+@media (max-width: 1200px) {
+	.nav-container,
+	.footer-nav {
+		padding-left: 40px;
+		padding-right: 40px;
+		margin-top: 50px;
+
+	}
+
+	.kitchen,
+	.art,
+	.design,
+	.contact {
+		gap: 40px;
+	}
+
+	.img4,
+	.img5,
+	.img6 {
+		width: min(100%, calc(100% - 80px));
+	}
+
+	.content1 h2,
+	.content2 h3,
+	.content3 h4 {
+		font-size: 52px;
+	}
+}
+@media(max-width=900){
+	.footer-nav{
+		color: #111;
+	}
+	.content1
+	.content2
+	.content3{
+		font-size: x-large;
+		width: fit-content;
+		height: auto;
+	}
+	.client{
+
+	}
+
+}
+@media(max-width=600){
+
+
+}   
