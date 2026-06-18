@@ -12,31 +12,47 @@ body{
 .nav-container{
 	width: 100%;
 	padding: 30px 90px;
+
 }
 
 .nav-top{
 	align-items: center;
 	justify-content:space-between;
 	display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: whitesmoke;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
+
+
 
 .clemo{
 	font-size: 40px;
 	font-weight: bold;
+
 }
 
 .nav-links{
+
 	display: flex;
 	list-style: none;
+	margin: 0;
+	padding: 0;
 	gap: 30px;
 	color: rgb(12, 11, 10);
-	margin-right: -10px;
+	margin-right: 0;
+	padding-right: 180px;
 }
 
 .nav-links a{
 	text-decoration: none;
 	font-size:  25px;;
 	color: rgb(12, 12, 11);
+
 }
 
 .nav-centre{
@@ -124,7 +140,7 @@ body{
 	 align-items: center;
 	 justify-content: center;
 	 gap: 70px;
-	 width: min(1200px, calc(100% - 160px));
+	 width: 100%;
 	 margin: 0 auto 40px;
     
 }
@@ -172,7 +188,7 @@ body{
 	 align-items: center;
 	 justify-content: center;
 	 gap: 70px;
-	 width: min(1200px, calc(100% - 160px));
+	 width: 100%;
 	 margin: 0 auto;
 }
 
@@ -210,8 +226,6 @@ body{
 	color: #7f7f7f;
 	margin-bottom: 24px;
 }
-
-
 
 
 
