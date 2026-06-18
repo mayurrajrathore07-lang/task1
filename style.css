@@ -331,13 +331,41 @@ object-fit: cover;
 .names{
 	display: flex;
 	justify-content: space-between;
-	gap: 120px;
-	padding-top: 20px;
+	padding-top: 40px;
 	font-size: xx-large;
 	font-weight: bold;
-	margin-left: 30px;
+	margin-left: 80px;
 	align-items: center;
+	margin-right: 80px; 
+	gap: 70px;
 }
+.names>h1{
+	font-size:45px;
+	padding-left: 60px;
+}
+
+.names>h2{
+	font-size:45px ;
+	padding-left: 100px;
+}
+
+.names>h3{font-size:45px;
+	padding-left: 25px;
+}
+
+.names>h1>p{
+	font-size: large;
+}
+
+.names>h2>p{
+	font-size: large;
+}
+.names>h3>p{
+	font-size: large;
+}
+
+
+
 
 .client {
     background-color: #f3f3f3;
@@ -554,3 +582,19 @@ font-weight: bold;
 padding-top: 40px;
 }
 
+
+@media (max-width: 600px) {
+	body{
+		background-color: red;
+	}
+	
+.clemo{
+	font-size: 20px;
+}
+.nav-links{
+	display:list-item;
+	align-items: left;
+}
+
+
+}
