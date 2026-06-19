@@ -2,6 +2,7 @@ const getInTouchButton = document.querySelector('.get');
 const learnMoreButtons = document.querySelectorAll('.button');
 const contactSection = document.querySelector('#contact');
 const form = document.querySelector('.input');
+const darkModeButton = document.querySelector('.theme-toggle');
 
 if (getInTouchButton && contactSection) {
 	getInTouchButton.addEventListener('click', () => {
@@ -22,8 +23,9 @@ if (form) {
 		form.reset();
 	});
 }
-if(getInTouchButton){
-    getInTouchButton.addEventListener('click',()=>{
-        contactSection.scrollIntoView({brhaviour:'smooth'})
-    })
+
+if (darkModeButton) {
+	darkModeButton.addEventListener('click', () => {
+		document.body.classList.toggle('dark-mode');
+	});
 }
