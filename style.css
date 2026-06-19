@@ -614,21 +614,33 @@ padding-top: 40px;
 	.footer-nav {
 		padding-left: 40px;
 		padding-right: 40px;
-		margin-top: 50px;
+	}
 
+	.nav-top {
+		flex-wrap: wrap;
+	}
+
+	.nav-links {
+		gap: 18px;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 
 	.kitchen,
 	.art,
 	.design,
-	.contact {
+	.contact,
+	.content4,
+	.img6 {
 		gap: 40px;
 	}
 
-	.img4,
-	.img5,
-	.img6 {
-		width: min(100%, calc(100% - 80px));
+	.content>h2,
+	.works>h4,
+	.team>h5,
+	.client h6,
+	.footer-nav>h2 {
+		font-size: 56px;
 	}
 
 	.content1 h2,
@@ -636,22 +648,295 @@ padding-top: 40px;
 	.content3 h4 {
 		font-size: 52px;
 	}
-}
-@media(max-width=900){
-	.footer-nav{
-		color: #111;
+
+	.img4,
+	.img5 {
+		width: min(100%, calc(100% - 80px));
+		flex-wrap: wrap;
 	}
-	.content1
-	.content2
-	.content3{
-		font-size: x-large;
-		width: fit-content;
+
+	.img4 img,
+	.img5 img,
+	.img6 img {
+		max-width: 100%;
+	}
+
+	.team-name {
+		gap: 50px;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.names {
+		margin-left: 40px;
+		margin-right: 40px;
+		gap: 30px;
+	}
+
+	.content4,
+	.contact {
+		width: 100%;
+	}
+
+	.img6 {
+		width: 100%;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 900px) {
+	.nav-container {
+		padding: 24px 24px 0;
+	}
+
+	.nav-top {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.nav-links {
+		gap: 14px;
+		font-size: 18px;
+	}
+
+	.nav-links a,
+	.theme-toggle,
+	.get,
+	.button,
+	.input .button {
+		font-size: 16px;
+	}
+
+	.nav-centre {
+		height: auto;
+		padding: 48px 24px;
+		margin-top: 32px;
+	}
+
+	.nav-centre h1 {
+		font-size: 52px;
+	}
+
+	.nav-centre p {
+		font-size: 24px;
+	}
+
+	.kitchen,
+	.art,
+	.design,
+	.content4,
+	.contact {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.img1,
+	.img2,
+	.img3 {
+		flex: 1 1 auto;
+		width: 100%;
+	}
+
+	.img1 img,
+	.img2 img,
+	.img3 img {
+		height: auto;
+		max-height: 520px;
+	}
+
+	.content1,
+	.content2,
+	.content3 {
+		max-width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.content>h2,
+	.works>h4,
+	.team>h5,
+	.client h6,
+	.footer-nav>h2 {
+		font-size: 46px;
+		margin-bottom: 48px;
+	}
+
+	.img4,
+	.img5 {
+		width: 100%;
+		padding: 0 24px;
+		gap: 20px;
+	}
+
+	.img4 img,
+	.img5 img {
+		width: calc(50% - 10px);
+		height: auto;
+		border-radius: 24px;
+	}
+
+	.button {
+		margin-left: 0;
+	}
+
+	.team {
+		height: auto;
+		padding-bottom: 48px;
+	}
+
+	.names {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		margin: 24px 24px 0;
+	}
+
+	.names > h1,
+	.names > h2,
+	.names > h3 {
+		padding-left: 0;
+		font-size: 34px;
+	}
+
+	.content4 {
+		gap: 32px;
+		width: 100%;
+	}
+
+	.contentp {
+		width: 100%;
+	}
+
+	.img6 {
+		margin-top: 50px;
+		padding: 0 24px;
+	}
+
+	.img6 img {
+		width: calc(50% - 13px);
 		height: auto;
 	}
 
+	.footer-nav {
+		padding: 48px 24px 36px;
+	}
 
+	.contact {
+		grid-template-columns: 1fr;
+		column-gap: 0;
+		row-gap: 40px;
+	}
+
+	.contact-info,
+	.input {
+		padding-top: 0;
+	}
+
+	.year {
+		height: auto;
+		padding: 24px;
+	}
 }
-@media(max-width=600){
 
+@media (max-width: 600px) {
+	.nav-container,
+	.footer-nav {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
 
+	.clemo {
+		font-size: 32px;
+	}
+
+	.nav-links {
+		gap: 10px;
+	}
+
+	.nav-links a {
+		font-size: 16px;
+	}
+
+	.theme-toggle,
+	.get,
+	.button,
+	.input .button {
+		width: 100%;
+		max-width: 220px;
+	}
+
+	.nav-centre h1 {
+		font-size: 40px;
+	}
+
+	.nav-centre p {
+		font-size: 20px;
+	}
+
+	.content>h2,
+	.works>h4,
+	.team>h5,
+	.client h6,
+	.footer-nav>h2 {
+		font-size: 34px;
+		margin-bottom: 32px;
+	}
+
+	.content1 h2,
+	.content2 h3,
+	.content3 h4 {
+		font-size: 36px;
+	}
+
+	.content1 p,
+	.content2 p,
+	.content3 p,
+	.contentp p {
+		font-size: 16px;
+	}
+
+	.img4,
+	.img5,
+	.img6 {
+		padding: 0 16px;
+	}
+
+	.img4 img,
+	.img5 img,
+	.img6 img {
+		width: 100%;
+	}
+
+	.team-name {
+		gap: 24px;
+	}
+
+	.team-name > img {
+		width: 128px;
+		height: 128px;
+	}
+
+	.content4 {
+		gap: 24px;
+	}
+
+	.frank-sims h4 {
+		font-size: 32px;
+	}
+
+	.contact-row,
+	.input input,
+	.input textarea,
+	.frank-sims p {
+		font-size: 15px;
+	}
+
+	.social {
+		flex-wrap: wrap;
+	}
+
+	.year {
+		font-size: 14px;
+	}
 }   
