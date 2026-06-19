@@ -848,6 +848,8 @@ padding-top: 40px;
 
 	.clemo {
 		font-size: 32px;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.nav-links {
