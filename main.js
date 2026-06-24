@@ -4,7 +4,7 @@ const contactSection = document.querySelector('#contact');
 const form = document.querySelector('.input');
 const darkModeButton = document.querySelector('.theme-toggle');
 
-if (getInTouchButton && contactSection) {
+if (letstalkbutton && contactSection) {
 	getInTouchButton.addEventListener('click', () => {
 		contactSection.scrollIntoView({ behavior: 'smooth' });
 	});
