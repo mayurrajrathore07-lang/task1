@@ -20,7 +20,7 @@ if (form) {
 	form.addEventListener('submit', (event) => {
 		event.preventDefault();
 		alert('Thanks for your message! We will contact you soon.');
-		form.reset();
+		form.reset()
 	});
 }
 
